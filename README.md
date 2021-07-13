@@ -1,3 +1,5 @@
+## Configuração do Projeto
+
 ## Para não precisar mais fazer a conversão de Typescript para Javascript
 
 * yarn add ts-node-dev -D
