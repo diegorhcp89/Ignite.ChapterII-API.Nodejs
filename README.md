@@ -366,3 +366,14 @@ E a configuração está finalizada. Para garantir que o código seja formatado 
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
   ```
+
+  ## Instalando o UUID
+
+```json
+yarn add uuid
+```
+e
+
+```json
+yarn add @types/uuid -D
+```
