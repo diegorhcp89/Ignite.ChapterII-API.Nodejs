@@ -5,9 +5,11 @@
 * yarn add ts-node-dev -D
 * No package.json, abaixo de license, criar a linha abaixo
 
+```json
  "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
+  ```
 
 ## Desabilitar uma opção dentro do tsconfig
 
@@ -331,3 +333,36 @@ O arquivo final vai ficar assim:
 ```
 
 E a configuração está finalizada. Para garantir que o código seja formatado corretamente, você pode abrir os arquivos do projeto e salvar eles novamente.
+
+## Mudar a Configuração para encontrar error na aplicação
+
+* Dentro de lauch.jason deixar a configuração conforme abaixo
+
+```json
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ]
+        }
+    ]
+}
+```
+* Depois dentro do package.json em "scripts" configurar conforme abaixo
+
+```json
+ "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+  },
+  ```
