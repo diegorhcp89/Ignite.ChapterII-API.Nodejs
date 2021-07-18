@@ -388,3 +388,9 @@ e
 ```json
 yarn add @types/multer -D
 ```
+
+## Instalando o CSV na aplicação
+
+```json
+yarn add csv-parse
+```
