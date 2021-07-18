@@ -377,3 +377,14 @@ e
 ```json
 yarn add @types/uuid -D
 ```
+## Instalando o MULTER na aplicação
+
+```json
+yarn add multer
+```
+
+e
+
+```json
+yarn add @types/multer -D
+```
