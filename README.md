@@ -367,7 +367,7 @@ E a configuração está finalizada. Para garantir que o código seja formatado 
   },
   ```
 
-  ## Instalando o UUID
+## Instalando o UUID
 
 ```json
 yarn add uuid
@@ -393,4 +393,16 @@ yarn add @types/multer -D
 
 ```json
 yarn add csv-parse
+```
+
+## Instalando o Swagger na aplicação
+
+```json
+yarn add swagger-ui-express
+```
+
+e
+
+```json
+yarn add @types/swagger-ui-express -D
 ```
