@@ -406,3 +406,16 @@ e
 ```json
 yarn add @types/swagger-ui-express -D
 ```
+
+## Instalando o Docker na aplicação
+
+* Criando a imagem
+
+```json
+docker build -t NOME .
+```
+* Iniciar o Docker
+
+```json
+docker run -p 3333:3333 NOME
+```
