@@ -419,3 +419,31 @@ docker build -t NOME .
 ```json
 docker run -p 3333:3333 NOME
 ```
+# Docker-compose
+
+```json
+docker-compose up
+```
+e
+
+```json
+docker-compose up -d
+```
+
+* Como ver os containers que estão rodando
+
+```json
+docker ps
+```
+
+* Parar um container
+
+```json
+stop NOME_OU_ID_DO_CONTAINER
+```
+
+* Remover um container
+
+```json
+docker rm NOME_OU_ID_DO_CONTAINER
+```
