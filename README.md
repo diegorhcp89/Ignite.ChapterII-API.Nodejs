@@ -447,3 +447,14 @@ stop NOME_OU_ID_DO_CONTAINER
 ```json
 docker rm NOME_OU_ID_DO_CONTAINER
 ```
+
+## Instalando o TypeORM
+
+```json
+yarn add typeorm reflect-metadata
+```
+## Instalando o PostgreSQL
+
+```json
+yarn add pg
+```
