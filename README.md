@@ -439,7 +439,7 @@ docker ps
 * Parar um container
 
 ```json
-stop NOME_OU_ID_DO_CONTAINER
+docker stop NOME_OU_ID_DO_CONTAINER
 ```
 
 * Remover um container
