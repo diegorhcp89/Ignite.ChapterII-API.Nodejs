@@ -458,3 +458,19 @@ yarn add typeorm reflect-metadata
 ```json
 yarn add pg
 ```
+## Criando migration de categoria
+
+```json
+yarn typeorm migration:create -n NOME
+```
+* Iniciando a Migration
+
+```json
+yarn typeorm migration:run
+```
+
+* Encerrando uma migration
+
+```json
+yarn typeorm migration:revert
+```
