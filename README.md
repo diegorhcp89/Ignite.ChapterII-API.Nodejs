@@ -419,6 +419,10 @@ docker build -t NOME .
 ```json
 docker run -p 3333:3333 NOME
 ```
+```json
+ docker-compose start
+```
+
 # Docker-compose
 
 ```json
