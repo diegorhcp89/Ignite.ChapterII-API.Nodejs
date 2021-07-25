@@ -478,3 +478,8 @@ yarn typeorm migration:run
 ```json
 yarn typeorm migration:revert
 ```
+## Instalando o TSyringe
+
+```json
+yarn add tsyringe
+```
