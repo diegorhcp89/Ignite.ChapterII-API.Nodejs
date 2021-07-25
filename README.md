@@ -483,3 +483,9 @@ yarn typeorm migration:revert
 ```json
 yarn add tsyringe
 ```
+
+## Criando migration de especificação
+
+```json
+yarn typeorm migration:create -n CreateSpecifications
+```

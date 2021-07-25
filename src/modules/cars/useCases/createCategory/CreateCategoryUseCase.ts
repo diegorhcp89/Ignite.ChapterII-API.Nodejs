@@ -12,9 +12,9 @@ interface IRequest {
 class CreateCategoryUseCase {
     constructor(
         @inject("CategoriesRepository")
-        private categoriesRepository: ICategoriesRepository) {
-        
-    }
+        private categoriesRepository: ICategoriesRepository 
+        ){}
+    
 
     async execute({ description, name }: IRequest): Promise<void> {
         
