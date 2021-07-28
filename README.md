@@ -467,7 +467,8 @@ yarn add pg
 ```json
 yarn typeorm migration:create -n NOME
 ```
-* Iniciando a Migration
+
+# Iniciando a Migration
 
 ```json
 yarn typeorm migration:run

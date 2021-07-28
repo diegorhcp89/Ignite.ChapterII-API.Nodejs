@@ -3,7 +3,7 @@ import { v4 as uuidV4 } from 'uuid';
 
 
 @Entity("categories")
-class Specification {
+class Category  {
     @PrimaryColumn()
     id?: string;
 
@@ -23,4 +23,4 @@ class Specification {
     }
 }
 
-export { Specification }
+export { Category  }
