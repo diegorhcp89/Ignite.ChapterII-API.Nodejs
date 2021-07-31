@@ -490,3 +490,14 @@ yarn add tsyringe
 ```json
 yarn typeorm migration:create -n CreateSpecifications
 ```
+
+## Criptografrar senha
+
+```json
+yarn add bcrypt
+```
+e
+
+```json
+yarn add @types/bcrypt -D
+```
