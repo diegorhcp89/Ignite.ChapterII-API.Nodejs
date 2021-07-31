@@ -494,10 +494,24 @@ yarn typeorm migration:create -n CreateSpecifications
 ## Criptografrar senha
 
 ```json
-yarn add bcrypt
+yarn add bcryptjs
 ```
 e
 
 ```json
 yarn add @types/bcrypt -D
+```
+
+Criando token do usuário
+
+## Criando token do usuário
+
+```json
+yarn add jsonwebtoken
+```
+
+e
+
+```json
+yarn add @types/jsonwebtoken -D
 ```
