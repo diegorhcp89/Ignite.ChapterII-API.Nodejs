@@ -515,3 +515,9 @@ e
 ```json
 yarn add @types/jsonwebtoken -D
 ```
+
+## Tratamento de exceções
+
+```json
+yarn add express-async-errors
+```
